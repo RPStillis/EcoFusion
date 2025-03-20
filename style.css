@@ -1,4 +1,103 @@
-html {
+
+html, body {
   height: 100%;
   width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #4a783d;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.menu-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav-center {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-center a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-right .register {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: #64B246;
+  color: white;
+  padding: 40px;
+  text-align: left;
+  position: relative;
+  min-height: 200px;
+}
+
+.logo-large {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  background-color: #9CCE3F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-large img {
+  width: 80%;
+  height: auto;
+}
+
+.info-section {
+  background-color: #E5E5E5;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.submit-btn {
+  background-color: #666666;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.hours {
+  background-color: #9CCE3F;
+  padding: 10px 20px;
+  color: white;
 }
