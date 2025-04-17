@@ -1,3 +1,4 @@
+
 html, body {
   height: 100%;
   width: 100%;
@@ -12,72 +13,39 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: white;
 }
 
-.nav-left .logo {
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.menu-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.logo {
   height: 40px;
 }
 
-.nav-title {
-  font-size: 1.2em;
-}
-
-.nav-right {
+.nav-center {
   display: flex;
-  align-items: center;
   gap: 20px;
 }
 
-.phone {
-  font-size: 1.2em;
-}
-
-.register {
+.nav-center a {
   color: white;
   text-decoration: none;
 }
 
-.form-container {
-  max-width: 1200px;
-  margin: 40px auto;
-  padding: 20px;
-  display: flex;
-  gap: 40px;
-}
-
-.complaint-form {
-  flex: 1;
-}
-
-.form-group {
-  margin-bottom: 20px;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 8px;
-  font-weight: bold;
-}
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 10px;
-  border: 2px solid #6291B0;
-  border-radius: 4px;
-  font-size: 1em;
-}
-
-.illustration {
-  flex: 1;
-  display: flex;
-  align-items: center;
-}
-
-.illustration img {
-  max-width: 100%;
-  height: auto;
+.nav-right .register {
+  color: white;
+  text-decoration: none;
 }
 
 .hero {
