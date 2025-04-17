@@ -4,45 +4,46 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>EcoFusion - Par dabu!</title>
+  <title>EcoFusion - Sūdzību pieteikšana</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
   <nav>
     <div class="nav-left">
-      <button class="menu-btn">☰coⒻusion
-      </button>
-      <img src="smogo.png"alt="EcoFusion" class="logo">
+      <img src="smogo.png" alt="EcoFusion" class="logo">
     </div>
-    <div class="nav-center">
-      <a href="#">Par mums</a>
-      <a href="#">Piedāvājums</a>
-      <a href="#">Galerija</a>
+    <div class="nav-title">
+      Sūdzību pieteikšana :
     </div>
     <div class="nav-right">
+      <div class="phone">📞24901892</div>
       <a href="#" class="register">Reģistrēties</a>
     </div>
   </nav>
 
   <main>
-    <div class="hero">
-      <h1>EcoFusion - Par dabu!</h1>
-      <div class="logo-large">
-        <img src="logosmogo.png" alt="EcoFusion Logo">
-      </div>
-    </div>
+    <div class="form-container">
+      <form class="complaint-form">
+        <div class="form-group">
+          <label>Vārds, uzvārds</label>
+          <input type="text" required>
+        </div>
+        
+        <div class="form-group">
+          <label>E-pasts</label>
+          <input type="email" required>
+        </div>
 
-    <div class="info-section">
-      <div class="location">
-        <p>📍 Krēslu iela 16A</p>
-        <button class="submit-btn">Pieteikt sūdzību</button>
-      </div>
-      <div class="hours">
-        <p>Pirmd-Sestd: 08:00 - 17:00</p>
+        <div class="form-group">
+          <label>Problēma ar ko esat saskāries/usies :</label>
+          <textarea rows="4" required></textarea>
+        </div>
+      </form>
+
+      <div class="illustration">
+        <img src="attached_assets/image_1742457720967.png" alt="Meeting illustration">
       </div>
     </div>
   </main>
-
-  <script src="script.js"></script>
 </body>
 </html>
